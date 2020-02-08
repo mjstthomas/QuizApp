@@ -37,12 +37,20 @@ li{
  }
 
  main{
+ 	box-sizing: border-box;
  	width: 70%;
- 	height: 300px;
+ 	height: 85%;
  	background-color: rgba(200, 200, 200, 0.9);
  	margin-right: 13%;
  	margin-left: 13%;
  	border: 2px solid black;
+ }
+ button{
+ 	float: right;
+ 	height: 30px;
+ 	width: 150px;
+ 	font-size: 20px;
+ 	font-weight: 600;
  }
 
  @media screen and (min-width: 700px){
