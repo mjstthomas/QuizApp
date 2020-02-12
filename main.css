@@ -84,22 +84,22 @@ li{
  }
 .correct{
 	position: absolute;
-	left: 33%;
-	bottom: 40%;
+	left: 14%;
+	bottom: 13%;
 	background-color: rgba(50, 255, 50, 0.9);
 	border: 5px solid green;
-	height: 30%;
-	width: 30%;
+	height: 50%;
+	width: 66%;
 	margin: 80px auto 0 auto;
 }
 .incorrect{
 	position: fixed;
-	left: 33%;
-	bottom: 40%;
+	left: 14%;
+	bottom: 13%;
 	background-color: rgba(255, 50, 50, 0.9);
 	border: 5px solid red;
-	height: 30%;
-	width: 30%;
+	height: 50%;
+	width: 66%;
 	margin: 80px auto 0 auto;
 }
 
@@ -123,4 +123,24 @@ li{
 	margin-top: 40px;
 	height: 30px;
  }
+ .correct{
+	position: absolute;
+	left: 33%;
+	bottom: 40%;
+	background-color: rgba(50, 255, 50, 0.9);
+	border: 5px solid green;
+	height: 30%;
+	width: 30%;
+	margin: 80px auto 0 auto;
+}
+.incorrect{
+	position: fixed;
+	left: 33%;
+	bottom: 40%;
+	background-color: rgba(255, 50, 50, 0.9);
+	border: 5px solid red;
+	height: 30%;
+	width: 30%;
+	margin: 80px auto 0 auto;
+}
  }
