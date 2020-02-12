@@ -1,8 +1,8 @@
 body{
 	height: 100%;
-	/*background-color: rgb(255, 50, 50);*/
+	background-color: rgb(255, 50, 50);
 	background-size: cover;
-	/*background-image: url(https://lp-cms-production.imgix.net/2019-06/GettyImages-142116239_medium.jpg?fit=crop&q=40&sharp=10&vib=20&auto=format&ixlib=react-8.6.4);*/
+	background-image: url(https://lp-cms-production.imgix.net/2019-06/GettyImages-142116239_medium.jpg?fit=crop&q=40&sharp=10&vib=20&auto=format&ixlib=react-8.6.4);
 }
 
 
@@ -10,8 +10,8 @@ h1{
 	font-size: 50px;
 	text-align: center;
 	font-weight: 700;
-	/*color: white;
-	text-shadow: 3px 2px 2px black;*/
+	color: white;
+	text-shadow: 3px 2px 2px black;
 	margin-bottom: 3px;
 }
 h3{
@@ -19,7 +19,7 @@ h3{
 	text-align: center;
 	font-weight: 700;
 	color: black;
-	/*text-shadow: 3px 2px 2px white;*/
+	text-shadow: 3px 2px 2px white;
 	margin-bottom: 3px;
 	text-decoration: line-under;
 }
@@ -46,8 +46,8 @@ li{
 	display: block;
 	font-size: 30px;
 	font-weight: 700;
-	/*color: white;
-	text-shadow: 3px 2px 2px black;*/
+	color: white;
+	text-shadow: 3px 2px 2px black;
 }
  #questionCount{
  	text-align: center;
@@ -76,12 +76,18 @@ li{
 	 	margin-left: 13%;
 	 	border: 2px solid black;
  }
+.submit{
+	margin-top: 40px;
+ }
+.next{
+	margin-top: 40px;
+ }
 .correct{
 	position: absolute;
 	left: 33%;
 	bottom: 40%;
-	background-color: gray; /*rgba(50, 255, 50, 0.9);
-	/*border: 5px solid green;*/
+	background-color: rgba(50, 255, 50, 0.9);
+	border: 5px solid green;
 	height: 30%;
 	width: 30%;
 	margin: 80px auto 0 auto;
@@ -90,8 +96,8 @@ li{
 	position: fixed;
 	left: 33%;
 	bottom: 40%;
-	background-color: gray;/*rgba(255, 50, 50, 0.9);
-	border: 5px solid red;*/
+	background-color: rgba(255, 50, 50, 0.9);
+	border: 5px solid red;
 	height: 30%;
 	width: 30%;
 	margin: 80px auto 0 auto;

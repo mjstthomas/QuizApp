@@ -13,7 +13,7 @@ const quiz = [
 },
 {
 	id: 3,
-	question: "Where can the most visited country be found?",
+	question: "Which is the most visited country?",
 	answers: ["United States", "Italy", "France", "China"],
 	correct: "France"
 },
@@ -27,36 +27,36 @@ const quiz = [
 	id: 5,
 	question: "What is the youngest country?",
 	answers: ["Moraco", "United States", "South Sudan", "Taiwan"],
-	correct: "South Sudan",
+	correct: "South Sudan"
 },
 {
 	id: 6,
 	question: "What is the most spoken language on earth?",
-	answers: ["English", "French", "Spanish", "Mandarin"]
+	answers: ["English", "French", "Spanish", "Mandarin"],
 	correct: "Mandarin"
 },
 {
 	id: 7,
 	question: "Which city is the most 'bike friendly'?",
-	answers: ["New York City", "Toronto", "London", "Copenhagen"]
-	correct: "Copenhagen",
+	answers: ["New York City", "Toronto", "London", "Copenhagen"],
+	correct: "Copenhagen"
 },
 {
 	id: 8,
 	question: "Facebook has more users that the total population of which 3 countries?",
-	answers: ["U.S., China, and Brazil", "Puerto Rico, Cuba, and Mexico", "Argentina, Brazil, and Venezuela", "South Africa, Congo, and Uruguay"]
+	answers: ["U.S., China, and Brazil", "Puerto Rico, Cuba, and Mexico", "Argentina, Brazil, and Venezuela", "South Africa, Congo, and Uruguay"],
 	correct: "U.S., China, and Brazil",
 },
 {
 	id: 9,
 	question: "Which country has more pets per household?",
-	answers: ["Austrailia", "Greece", "Turkey", "New Zealand"]
+	answers: ["Austrailia", "Greece", "Turkey", "New Zealand"],
 	correct: "New Zealand",
 },
 {
 	id: 10,
 	question: "Which is the World's largest city?",
-	answers: ["Moscow", "Rome", "Los Angeles", "Tokyo"]
+	answers: ["Moscow", "Rome", "Los Angeles", "Tokyo"],
 	correct: "Tokyo",
 }
 ]
