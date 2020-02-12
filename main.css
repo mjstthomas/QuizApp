@@ -5,7 +5,6 @@ body{
 	background-image: url(https://lp-cms-production.imgix.net/2019-06/GettyImages-142116239_medium.jpg?fit=crop&q=40&sharp=10&vib=20&auto=format&ixlib=react-8.6.4);
 }
 
-
 h1{
 	font-size: 50px;
 	text-align: center;
@@ -59,7 +58,7 @@ li{
  main{
  	box-sizing: border-box;
  	width: 70%;
- 	height: 300px;
+ 	height: 400px;
  	background-color: rgba(200, 200, 200, 0.9);
  	margin-right: 13%;
  	margin-left: 13%;
@@ -81,15 +80,18 @@ li{
  }
 .next{
 	margin-top: 40px;
+	margin-right: auto;
+	margin-left: 0px;
+	width: 175px;
  }
 .correct{
 	position: absolute;
 	left: 33%;
-	bottom: 40%;
+	bottom: 50%;
 	background-color: rgba(50, 255, 50, 0.9);
 	border: 5px solid green;
-	height: 30%;
-	width: 30%;
+	height: 50%;
+	width: 50%;
 	margin: 80px auto 0 auto;
 }
 .incorrect{
