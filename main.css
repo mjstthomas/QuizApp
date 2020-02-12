@@ -6,7 +6,7 @@ body{
 }
 
 h1{
-	font-size: 50px;
+	font-size: 30px;
 	text-align: center;
 	font-weight: 700;
 	color: white;
@@ -14,7 +14,7 @@ h1{
 	margin-bottom: 3px;
 }
 h3{
-	font-size: 30px;
+	font-size: 20px;
 	text-align: center;
 	font-weight: 700;
 	color: black;
@@ -28,7 +28,7 @@ p{
 	margin-top: 10px;
 }
 form{
-	font-size: 30px;
+	font-size: 20px;
 	margin: 30px auto;
 	text-align: center;
 }
@@ -43,7 +43,7 @@ ul{
 
 li{
 	display: block;
-	font-size: 30px;
+	font-size: 20px;
 	font-weight: 700;
 	color: white;
 	text-shadow: 3px 2px 2px black;
@@ -85,29 +85,46 @@ li{
 .correct{
 	position: absolute;
 	left: 14%;
-	bottom: 13%;
+	bottom: 40%;
 	background-color: rgba(50, 255, 50, 0.9);
 	border: 5px solid green;
-	height: 50%;
+	height: 25%;
 	width: 66%;
 	margin: 80px auto 0 auto;
 }
 .incorrect{
 	position: fixed;
 	left: 14%;
-	bottom: 13%;
+	bottom: 43%;
 	background-color: rgba(255, 50, 50, 0.9);
 	border: 5px solid red;
-	height: 50%;
+	height: 30%;
 	width: 66%;
 	margin: 80px auto 0 auto;
 }
 
  @media screen and (min-width: 700px){
- 	
+ 	h1{
+	font-size: 50px;
+	text-align: center;
+	font-weight: 700;
+	color: white;
+	text-shadow: 3px 2px 2px black;
+	margin-bottom: 3px;
+	}
+	h3{
+	font-size: 30px;
+	text-align: center;
+	font-weight: 700;
+	color: black;
+	text-shadow: 3px 2px 2px white;
+	margin-bottom: 3px;
+	text-decoration: line-under;
+	}
  	li{
  		display: inline;
  		margin-bottom: 20px;
+ 		font-size: 30px;
  	}
  	#questionCount{
  		position: relative;

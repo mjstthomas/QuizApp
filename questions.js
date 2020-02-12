@@ -3,11 +3,11 @@ const quiz = [
 	id: 1,
 	question: "What are the only two countries that DO NOT sell Coca-cola?",
 	answers: ["Argentina and Brazil", "Holland and Cuba", "Cuba and North Korea", "Russia and Iran"],
-	correct: "Cuba and North Korea"
+	correct: "Cuba and North Korea",
 },
 {
 	id: 2,
-	question: "The entire human populatin can fit into which city?",
+	question: "The entire human population can fit into which city?",
 	answers: ["Los Angeles", "New York City", "Paris", "Tokyo"],
 	correct: "Los Angeles"
 },

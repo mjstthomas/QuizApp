@@ -11,7 +11,7 @@ let score = 0;
 //rendering questions
 
 function questionRender(){
-	$('main').find('#container').replaceWith(`<h3>${quiz[i].question}</h3><form class="quizForm"><input type="radio" name="answer" value="${quiz[i].answers[0]}">${quiz[i].answers[0]}<br><input type="radio" name="answer" value="${quiz[i].answers[1]}">${quiz[i].answers[1]}<br><input type="radio" name="answer" value="${quiz[i].answers[2]}">${quiz[i].answers[2]}<br><input type="radio" name="answer" value="${quiz[i].answers[3]}">${quiz[i].answers[3]}<br><button class='submit'>Submit</button></form>`);
+	$('main').find('#container').replaceWith(`<h3>${quiz[i].question}</h3><form class="quizForm"><input type="radio" name="answer" value="${quiz[i].answers[0]}" required>${quiz[i].answers[0]}<br><input type="radio" name="answer" value="${quiz[i].answers[1]}" required>${quiz[i].answers[1]}<br><input type="radio" name="answer" value="${quiz[i].answers[2]}" required>${quiz[i].answers[2]}<br><input type="radio" name="answer" value="${quiz[i].answers[3]}" required>${quiz[i].answers[3]}<br><button class='submit'>Submit</button></form>`);
 	quizSubmit();
 	questionCounter();
 	scoreCounter();
