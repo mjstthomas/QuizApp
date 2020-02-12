@@ -1,17 +1,20 @@
-$(document).ready(function(){
-	$('.start').click( event=>{
+$(document).ready()
+
+$('.start').click( event=>{
 	questionRender();
 	$('.start').replaceWith();
+	nextQuestion();
 });
-})
+
 
 let i = 0;
 let questNum = 1;
 let score = 0;
+
 //rendering questions
 
 function questionRender(){
-	$('main').find('#container').replaceWith(`<h3>${quiz[i].question}</h3><form class="quizForm"><input type="radio" name="answer" value="${quiz[i].answers[0]}" required>${quiz[i].answers[0]}<br><input type="radio" name="answer" value="${quiz[i].answers[1]}" required>${quiz[i].answers[1]}<br><input type="radio" name="answer" value="${quiz[i].answers[2]}" required>${quiz[i].answers[2]}<br><input type="radio" name="answer" value="${quiz[i].answers[3]}" required>${quiz[i].answers[3]}<br><button class='submit'>Submit</button></form>`);
+	$('main').find('#container').replaceWith(`<h3>${quiz[i].question}</h3><form class="quizForm"><input type="radio" name="answer" value="${quiz[i].answers[0]}" required>${quiz[i].answers[0]}<br><input type="radio" name="answer" value="${quiz[i].answers[1]}">${quiz[i].answers[1]}<br><input type="radio" name="answer" value="${quiz[i].answers[2]}">${quiz[i].answers[2]}<br><input type="radio" name="answer" value="${quiz[i].answers[3]}">${quiz[i].answers[3]}<br><button class='submit'>Submit</button></form>`);
 	quizSubmit();
 	questionCounter();
 	scoreCounter();
@@ -39,7 +42,6 @@ function quizSubmit(){
 		 	$('main').empty();
 		 	$('main').append("<section id= 'container'></section>")
 	});
-	nextQuestion();
 };
 //removes elements and moves on to next question
 
@@ -48,10 +50,10 @@ function nextQuestion(){
 		console.log('clickity')
 		let finalScore = score * 10;
 		if (questNum < 10){
-			i+= 1;
+			i++;
 			removeWindow();
 			questionRender();
-			questNum += 1;
+			questNum ++;
 			questionCounter();
 		} else {
 		 	if (finalScore > 50){
